@@ -234,11 +234,12 @@ Built as part of Coy's SDE Intern Assignment. The project demonstrates mobile-fi
 
 ## Important Notes
 
-- **Auto-Initialization**: When deployed, if `data/store.json` doesn't exist, the app automatically generates fresh seed data on first API call. No manual setup required.
-- **Fresh State on Deploy**: The `data/store.json` file is excluded from git (see `.gitignore`), so each deployment starts with a clean slate - zero matches, zero swipes, and 32 fresh profiles.
+- **Hybrid Storage**: The app uses file-based storage locally and automatically falls back to in-memory storage on serverless platforms (Vercel, Netlify) where the filesystem is read-only.
+- **Auto-Initialization**: When deployed, if data doesn't exist, the app automatically generates fresh seed data on the first API call. No manual setup required.
+- **Fresh State on Deploy**: Each deployment starts with a clean slate - zero matches, zero swipes, and 32 fresh profiles.
 - **Pre-seeded Likes**: 10 profiles are secretly configured to have already liked you. When you swipe right on any of these, a match will trigger instantly to demonstrate the mutual matching system.
 - **Demo Mode**: The Settings modal includes a "Reset Demo Data" button to restore the initial state for testing purposes.
-- **Serverless Compatible**: The storage layer auto-initializes on serverless platforms (Vercel, Netlify) where the filesystem is ephemeral.
+- **Serverless Compatible**: Works on all major hosting platforms including Vercel, Netlify, and Railway.
 
 ---
 

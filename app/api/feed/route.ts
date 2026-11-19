@@ -8,7 +8,10 @@ const CURRENT_USER_INTERESTS = ['Coding', 'Coffee', 'Travel', 'Music', 'Food'];
 
 export async function GET(request: NextRequest) {
   try {
+    console.log('[Feed API] Starting feed request...');
     const store = await readStore();
+    console.log(`[Feed API] Store loaded: ${store.profiles.length} profiles`);
+    
     const { searchParams } = new URL(request.url);
     
     
@@ -98,10 +101,16 @@ export async function GET(request: NextRequest) {
       count: sanitizedProfiles.length,
     });
   } catch (error) {
-    console.error('Error fetching feed:', error);
+    console.error('[Feed API] Error fetching feed:', error);
     const errorMessage = error instanceof Error ? error.message : 'Unknown error';
+    const errorStack = error instanceof Error ? error.stack : '';
     return NextResponse.json(
-      { success: false, error: 'Failed to fetch feed', details: errorMessage },
+      { 
+        success: false, 
+        error: 'Failed to fetch feed', 
+        details: errorMessage,
+        stack: process.env.NODE_ENV === 'development' ? errorStack : undefined
+      },
       { status: 500 }
     );
   }
