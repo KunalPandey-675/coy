@@ -104,12 +104,23 @@ npm run dev
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
+**Note**: On first run, the app automatically seeds 32 profiles with 10 hidden "pre-existing likes". These are profiles that have already liked you (but you don't know it). When you swipe right on any of these 10 profiles, a match will be triggered instantly to demonstrate the mutual matching system.
+
 ### Build for Production
 
 ```bash
 npm run build
 npm start
 ```
+
+### Reset Demo Data
+
+If you want to reset all swipes and matches back to the initial state:
+1. Navigate to Settings (gear icon in top navigation)
+2. Click "Reset Demo Data" button
+3. Confirm the reset
+
+Alternatively, delete `data/store.json` and restart the app.
 
 ## Usage Guide
 
@@ -220,6 +231,12 @@ The matching system follows Coy's core privacy principle:
 ## Acknowledgments
 
 Built as part of Coy's SDE Intern Assignment. The project demonstrates mobile-first development, gesture-based interactions, privacy-conscious backend design, and production-ready code quality.
+
+## Important Notes
+
+- **Fresh State on Deploy**: The `data/store.json` file is excluded from git (see `.gitignore`), so each deployment starts with a clean slate - zero matches, zero swipes, and 32 fresh profiles.
+- **Pre-seeded Likes**: 10 profiles are secretly configured to have already liked you. When you swipe right on any of these, a match will trigger instantly to demonstrate the mutual matching system.
+- **Demo Mode**: The Settings modal includes a "Reset Demo Data" button to restore the initial state for testing purposes.
 
 ---
 
