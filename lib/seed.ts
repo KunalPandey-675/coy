@@ -11,8 +11,8 @@ export function generateSeedData(): DataStore {
       name: 'Priya Sharma',
       age: 21,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '📚 Computer Science @ IIT Delhi | Love chai and late-night coding sessions | Looking for someone who gets my debugging jokes 😄',
       cityOrCollege: 'IIT Delhi',
@@ -25,8 +25,8 @@ export function generateSeedData(): DataStore {
       name: 'Arjun Mehta',
       age: 22,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '🏏 Cricket enthusiast | Economics major @ St. Stephens College | Foodie who believes in dessert before dinner',
       cityOrCollege: "St. Stephen's College, Delhi",
@@ -39,8 +39,8 @@ export function generateSeedData(): DataStore {
       name: 'Ananya Iyer',
       age: 20,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '🎨 Design student @ NIFT Mumbai | Sketch artist | Bollywood buff | Let\'s grab filter coffee and talk about everything!',
       cityOrCollege: 'NIFT Mumbai',
@@ -53,8 +53,8 @@ export function generateSeedData(): DataStore {
       name: 'Rohan Das',
       age: 23,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '⚡ Electrical Engineering @ IIT Bombay | Guitar player | Adventure junkie | Trekked to Everest Base Camp 🏔️',
       cityOrCollege: 'IIT Bombay',
@@ -67,8 +67,8 @@ export function generateSeedData(): DataStore {
       name: 'Isha Patel',
       age: 21,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '💼 MBA @ IIM Bangalore | Startup enthusiast | Love debating and chai pe charcha | Weekend warrior at dance class 💃',
       cityOrCollege: 'IIM Bangalore',
@@ -81,8 +81,8 @@ export function generateSeedData(): DataStore {
       name: 'Kabir Singh',
       age: 22,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '🎬 Film Studies @ FTII Pune | Aspiring filmmaker | Cinephile who can talk about movies for hours | Coffee > Tea',
       cityOrCollege: 'FTII Pune',
@@ -95,8 +95,8 @@ export function generateSeedData(): DataStore {
       name: 'Sneha Reddy',
       age: 20,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '🧬 Biotechnology @ VIT Vellore | Science nerd | Love baking and feeding people | Looking for my lab partner in life 🔬',
       cityOrCollege: 'VIT Vellore',
@@ -109,8 +109,8 @@ export function generateSeedData(): DataStore {
       name: 'Aditya Kulkarni',
       age: 23,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '🏋️ Mechanical Engineering @ BITS Pilani | Gym enthusiast | Car guy | Part-time stand-up comedy enthusiast | Let\'s workout together?',
       cityOrCollege: 'BITS Pilani',
@@ -123,8 +123,8 @@ export function generateSeedData(): DataStore {
       name: 'Divya Nair',
       age: 21,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '📖 Literature @ JNU Delhi | Bookworm | Poetry lover | Feminist | Can quote Jane Austen in any situation 📚',
       cityOrCollege: 'JNU Delhi',
@@ -137,8 +137,8 @@ export function generateSeedData(): DataStore {
       name: 'Vikram Rao',
       age: 22,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '🎵 Music Production @ AR Rahman Institute | EDM producer | Night owl | Foodie who lives for biryani | Swipe right for good vibes 🎧',
       cityOrCollege: 'KM Music Conservatory, Chennai',
@@ -151,8 +151,8 @@ export function generateSeedData(): DataStore {
       name: 'Riya Gupta',
       age: 20,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '🌿 Environmental Science @ DU | Climate activist | Plant mom | Love hiking and sustainable living | Let\'s save the planet together! 🌍',
       cityOrCollege: 'Delhi University',
@@ -165,8 +165,8 @@ export function generateSeedData(): DataStore {
       name: 'Siddharth Joshi',
       age: 23,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '💻 Software Engineer @ Bangalore | Love gaming and hackathons | Pizza enthusiast | Looking for my player 2 🎮',
       cityOrCollege: 'Bangalore',
@@ -179,8 +179,8 @@ export function generateSeedData(): DataStore {
       name: 'Nisha Kapoor',
       age: 21,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '🩺 Medical Student @ AIIMS Delhi | Future doctor | Love volunteering and helping people | Caffeine addict ☕',
       cityOrCollege: 'AIIMS Delhi',
@@ -193,8 +193,8 @@ export function generateSeedData(): DataStore {
       name: 'Akash Verma',
       age: 22,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '⚖️ Law @ NLSIU Bangalore | Debater | Cricket fan | Chai over coffee | Looking for intellectual conversations and spontaneous plans',
       cityOrCollege: 'NLSIU Bangalore',
@@ -207,8 +207,8 @@ export function generateSeedData(): DataStore {
       name: 'Meera Agarwal',
       age: 20,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '🎭 Theatre Arts @ NSD Delhi | Actor | Love improvisation and coffee shop hopping | Life\'s a stage, let\'s make it dramatic! 🎬',
       cityOrCollege: 'NSD Delhi',
@@ -221,8 +221,8 @@ export function generateSeedData(): DataStore {
       name: 'Rahul Desai',
       age: 23,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '🏃 Sports Management @ Pune | Marathon runner | Fitness coach | Believe in healthy mind, healthy body | Let\'s go for a run? 🏃‍♂️',
       cityOrCollege: 'Pune',
@@ -235,8 +235,8 @@ export function generateSeedData(): DataStore {
       name: 'Tanvi Shah',
       age: 21,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '📱 Digital Marketing @ Mumbai | Social media strategist | Love memes and meaningful conversations | Swipe right for good humor and better stories',
       cityOrCollege: 'Mumbai',
@@ -249,8 +249,8 @@ export function generateSeedData(): DataStore {
       name: 'Karthik Menon',
       age: 22,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '🎸 Musician @ Chennai | Guitarist and singer | Love jamming and Carnatic fusion | Looking for someone who appreciates good music 🎶',
       cityOrCollege: 'Chennai',
@@ -263,8 +263,8 @@ export function generateSeedData(): DataStore {
       name: 'Pooja Mishra',
       age: 20,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '🎨 Architecture @ SPA Delhi | Love sketching and minimalist design | Coffee and architecture walks are my jam ☕',
       cityOrCollege: 'SPA Delhi',
@@ -277,8 +277,8 @@ export function generateSeedData(): DataStore {
       name: 'Arnav Chatterjee',
       age: 23,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '📊 Data Analyst @ Kolkata | Numbers guy | Love cricket stats and stock market | Chai enthusiast | Let\'s analyze our compatibility! 📈',
       cityOrCollege: 'Kolkata',
@@ -291,8 +291,8 @@ export function generateSeedData(): DataStore {
       name: 'Ayesha Khan',
       age: 21,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '🌍 International Relations @ JMI Delhi | UN enthusiast | Love traveling and learning languages | Currently learning Spanish! 🇪🇸',
       cityOrCollege: 'Jamia Millia Islamia, Delhi',
@@ -305,8 +305,8 @@ export function generateSeedData(): DataStore {
       name: 'Yash Malhotra',
       age: 22,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '🏀 Basketball player @ Chandigarh | Sports lover | Gym rat | Believe in work hard, play hard | Looking for my teammate 🏀',
       cityOrCollege: 'Chandigarh',
@@ -319,8 +319,8 @@ export function generateSeedData(): DataStore {
       name: 'Kavya Krishnan',
       age: 20,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '🍰 Culinary Arts @ Bangalore | Pastry chef in training | Foodie and experimenter | Let me bake you something special! 👩‍🍳',
       cityOrCollege: 'Bangalore',
@@ -333,8 +333,8 @@ export function generateSeedData(): DataStore {
       name: 'Nikhil Rane',
       age: 23,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '🏍️ Mechanical Engineer @ Pune | Bike enthusiast | Love road trips and adventure sports | Let\'s ride into the sunset! 🌅',
       cityOrCollege: 'Pune',
@@ -347,8 +347,8 @@ export function generateSeedData(): DataStore {
       name: 'Simran Kaur',
       age: 21,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '💄 Fashion Blogger @ Delhi | Style enthusiast | Love shopping and brunch dates | Looking for someone who appreciates good fashion 👗',
       cityOrCollege: 'Delhi',
@@ -361,8 +361,8 @@ export function generateSeedData(): DataStore {
       name: 'Aryan Sinha',
       age: 22,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '🎮 Game Developer @ Hyderabad | Indie game creator | Anime lover | Pizza and gaming marathons are life | Let\'s co-op? 🕹️',
       cityOrCollege: 'Hyderabad',
@@ -375,8 +375,8 @@ export function generateSeedData(): DataStore {
       name: 'Anjali Trivedi',
       age: 20,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '🧘 Yoga instructor @ Rishikesh | Spiritual seeker | Love meditation and nature | Looking for peace and good vibes 🕉️',
       cityOrCollege: 'Rishikesh',
@@ -389,8 +389,8 @@ export function generateSeedData(): DataStore {
       name: 'Varun Nambiar',
       age: 23,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '📸 Photographer @ Goa | Travel photographer | Beach lover | Capturing moments and memories | Let\'s create some memories together! 📷',
       cityOrCollege: 'Goa',
@@ -403,8 +403,8 @@ export function generateSeedData(): DataStore {
       name: 'Shreya Bose',
       age: 21,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '📚 Psychology @ Christ University Bangalore | Mental health advocate | Love deep conversations and chai | Looking for emotional intelligence 🧠',
       cityOrCollege: 'Christ University, Bangalore',
@@ -417,8 +417,8 @@ export function generateSeedData(): DataStore {
       name: 'Harsh Agarwal',
       age: 22,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '🚀 Aerospace Engineering @ IIT Kharagpur | Space enthusiast | Love sci-fi and stargazing | Let\'s reach for the stars together! ✨',
       cityOrCollege: 'IIT Kharagpur',
@@ -431,8 +431,8 @@ export function generateSeedData(): DataStore {
       name: 'Diya Chopra',
       age: 20,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '🎤 Stand-up Comedian @ Mumbai | Love making people laugh | Foodie who lives for street food | Swipe right for unlimited laughter! 😂',
       cityOrCollege: 'Mumbai',
@@ -445,8 +445,8 @@ export function generateSeedData(): DataStore {
       name: 'Madhav Pillai',
       age: 23,
       photos: [
-        'https:
-        'https:
+        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
+        'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400'
       ],
       bio: '💼 Finance @ Mumbai | Stock market enthusiast | Love cricket and weekend getaways | Looking for my investment partner in life 📈',
       cityOrCollege: 'Mumbai',

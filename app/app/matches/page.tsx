@@ -460,7 +460,7 @@ export default function MatchesPage() {
                   const greeting = encodeURIComponent(
                     `Hi ${activeChatProfile.name}! We matched on Coy 😊`
                   );
-                  window.open(`https:
+                  window.open(`https://wa.me/?text=${greeting}`, '_blank');
                   showToast(`Opening WhatsApp chat with ${activeChatProfile.name} 💌`, 'info');
                   setActiveChatProfile(null);
                 }}

@@ -28,7 +28,7 @@ export default function SettingsModal({ isOpen, onClose, onResetData }: Settings
     action: () => Promise<void> | void;
   } | null>(null);
 
-  const inviteLink = 'https:
+  const inviteLink = 'https://app.getcoy.com/invite/alex-demo';
 
   const handleCopyInvite = async () => {
     try {

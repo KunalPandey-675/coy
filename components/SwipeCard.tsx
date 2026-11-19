@@ -36,7 +36,7 @@ export default function SwipeCard({
   const rotate = useTransform(x, [-200, 200], [-22, 22]);
   const opacity = useTransform(x, [-240, -120, 0, 120, 240], [0, 1, 1, 1, 0]);
 
-  
+
   const likeOpacity = useTransform(x, [15, 90], [0, 1]);
   const nopeOpacity = useTransform(x, [-15, -90], [0, 1]);
 
@@ -89,7 +89,7 @@ export default function SwipeCard({
       whileTap={{ scale: isTop ? 1.01 : 0.95 }}
     >
       <div className="w-full h-full bg-white rounded-[2.2rem] border-2 border-black shadow-[4px_4px_0px_#121212] overflow-hidden flex flex-col relative">
-        {}
+        { }
         <div className="relative h-[320px] w-full bg-[#ECEBFE] flex-shrink-0 overflow-hidden">
           {!imgError && currentPhoto ? (
             <Image
@@ -109,7 +109,7 @@ export default function SwipeCard({
             </div>
           )}
 
-          {}
+          { }
           {profile.photos.length > 1 && (
             <div className="absolute top-3 inset-x-3 flex gap-1.5 z-20">
               {profile.photos.map((_, i) => (
@@ -122,7 +122,7 @@ export default function SwipeCard({
             </div>
           )}
 
-          {}
+          { }
           {profile.photos.length > 1 && isTop && (
             <div className="absolute inset-0 flex z-10">
               <div className="w-1/2 h-full cursor-pointer" onClick={handlePrevPhoto} />
@@ -130,10 +130,10 @@ export default function SwipeCard({
             </div>
           )}
 
-          {}
+          { }
           <div className="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-black/50 to-transparent pointer-events-none" />
 
-          {}
+          { }
           <motion.div
             style={{ opacity: likeOpacity }}
             className="absolute top-8 left-5 -rotate-12 pointer-events-none z-30"
@@ -145,7 +145,7 @@ export default function SwipeCard({
             </div>
           </motion.div>
 
-          {}
+          { }
           <motion.div
             style={{ opacity: nopeOpacity }}
             className="absolute top-8 right-5 rotate-12 pointer-events-none z-30"
@@ -157,7 +157,7 @@ export default function SwipeCard({
             </div>
           </motion.div>
 
-          {}
+          { }
           {isTop && (
             <Button
               variant="secondary"
@@ -173,7 +173,7 @@ export default function SwipeCard({
             </Button>
           )}
 
-          {}
+          { }
           {isTop && profile.sharedInterests && profile.sharedInterests > 0 && (
             <div
               className={`absolute ${profile.photos.length > 1 ? 'top-7' : 'top-3'
@@ -185,7 +185,7 @@ export default function SwipeCard({
             </div>
           )}
 
-          {}
+          { }
           {profile.photos.length > 1 && (
             <div className="absolute bottom-3 left-3 px-2 py-0.5 bg-black/60 backdrop-blur-sm rounded-full text-[10px] font-black text-white border border-white/20 z-20">
               {photoIndex + 1}/{profile.photos.length}
@@ -193,10 +193,10 @@ export default function SwipeCard({
           )}
         </div>
 
-        {}
+        { }
         <div className="flex-1 p-4 flex flex-col justify-between bg-white overflow-hidden">
           <div>
-            {}
+            { }
             <div className="flex items-center justify-between mb-1.5">
               <div className="flex items-baseline gap-2 min-w-0">
                 <h3 className="text-2xl font-black text-black tracking-tight truncate">
@@ -208,7 +208,7 @@ export default function SwipeCard({
               </Badge>
             </div>
 
-            {}
+            { }
             <div className="flex flex-wrap items-center gap-1.5 mb-2">
               <div className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-bold bg-[#ECEBFE] text-[#4F46E5] border border-black/10">
                 <MapPin className="w-3 h-3 flex-shrink-0" />
@@ -222,13 +222,13 @@ export default function SwipeCard({
               )}
             </div>
 
-            {}
+            { }
             <p className="text-xs sm:text-sm text-gray-700 font-medium line-clamp-2 leading-relaxed">
               {profile.bio}
             </p>
           </div>
 
-          {}
+          { }
           <div className="flex flex-wrap gap-1.5 pt-2 border-t border-gray-100">
             {profile.interests.slice(0, 4).map((interest, idx) => (
               <Badge
