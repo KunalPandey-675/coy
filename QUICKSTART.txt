@@ -1,0 +1,51 @@
+COY DISCOVERY TAB - QUICK START GUIDE
+=====================================
+
+SETUP (First time only):
+1. npm install
+2. npm run verify (optional - checks setup)
+
+RUN:
+1. npm run dev
+2. Open http://localhost:3000
+
+TESTING MATCHES:
+- Swipe right on these profiles to get instant matches:
+  • Priya Sharma (IIT Delhi)
+  • Ananya Iyer (NIFT Mumbai)
+  • Isha Patel (IIM Bangalore)
+  • Aditya Kulkarni (BITS Pilani)
+  • Siddharth Joshi (Bangalore)
+  • Meera Agarwal (NSD Delhi)
+  • Pooja Mishra (SPA Delhi)
+  • Kavya Krishnan (Bangalore)
+  • Anjali Trivedi (Rishikesh)
+  • Diya Chopra (Mumbai)
+
+FEATURES TO TRY:
+✓ Drag cards left/right to swipe
+✓ Click ❌ or ❤️ buttons
+✓ Use ← → arrow keys
+✓ Press Space to view profile details
+✓ Click ℹ️ on card for full bio
+✓ Watch confetti when you match!
+✓ Check Matches tab for all connections
+✓ Refresh page - swipes persist!
+
+PORTS:
+- Dev server: http://localhost:3000
+- API endpoints:
+  GET  /api/feed
+  POST /api/swipe
+  GET  /api/matches
+
+DATA:
+- Stored in: data/store.json
+- 32 profiles seeded automatically
+- 10 pre-existing likes for demo
+
+TROUBLESHOOTING:
+- If profiles don't load: Check data/store.json exists
+- If styles broken: npm install (check Tailwind)
+- If TypeScript errors: npm run build
+- Port 3000 in use: npm run dev -- -p 3001
